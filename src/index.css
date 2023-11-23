@@ -6,7 +6,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.image{
+  height: 2em;
+  padding: 2%;
+  
+}
+
+.headerBar{
+  
+}
+
+.navbar-list{
+  text-decoration: none;
 }
