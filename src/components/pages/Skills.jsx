@@ -3,7 +3,7 @@ import React from "react";
 function Skills() {
   return <div>
     
-    Skills
+    <div className="title">Skills</div>
   </div>;
 }
 

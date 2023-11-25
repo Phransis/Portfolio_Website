@@ -15,8 +15,14 @@ body {
   
 }
 
-.headerBar{
+.headerBar ul li{
   /* display: flex; */
+  color: rgb(11, 113, 190);
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  
 }
 
 .navbar-list{
@@ -31,9 +37,22 @@ body {
 
 nav{
   display: flex;
+  align-items: center;
+  /* position: fixed; */
   background-color: rgb(229, 217, 234);
 }
 
+nav:hover{
+  background-color: rgb(81, 79, 79);
+}
+
+.title{
+  text-align: center;
+  font-size: 6em;
+  margin-top: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(105, 103, 101);
+}
 
 .intro-container{
   text-align: center;
@@ -53,11 +72,25 @@ nav{
 
 .handla{
   font-size: 6em;
-  margin-top: 5em;
+  margin-top: 1.5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(105, 103, 101);
 }
 
-.image-con{
-  width: 800px;
+.handla:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.handla.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.footer{
+  color: aliceblue;
+  background-color: black;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . ."; 
 }
