@@ -5,10 +5,10 @@ function About() {
   return (
     <div>
       <div className="intro-container">
-        <div className="handla">
-          <p className="hello">Hello</p>
-          I'm Handla
-          <p>I'm a software engineer with years of experience</p>
+        <div className="">
+          {/* <p className="hello">Hello</p> */}
+          <span className="handla">I'm Handla</span>
+          <p className="hello">I'm a software engineer with years of experience</p>
         </div>
         <img src={image} alt="" className="image-con"></img>
         {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti

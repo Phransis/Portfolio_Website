@@ -21,6 +21,7 @@ body {
 
 .navbar-list{
   list-style: none;
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   text-transform: uppercase;
@@ -38,7 +39,7 @@ nav{
   text-align: center;
   display: grid; 
   grid-template-columns: 1fr 1fr; 
-  grid-template-rows: 0,5fr; 
+  grid-template-rows: 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
     ". .";
@@ -46,14 +47,15 @@ nav{
 }
 
 .hello{
-  font-size: .5em;
-  margin-right: 300px;
-  margin-bottom: -20px;
+  font-size: 2em;
+
 }
 
 .handla{
-  font-size: 5em;
-  color: rgb(125, 126, 126);
+  font-size: 6em;
+  margin-top: 5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(105, 103, 101);
 }
 
 .image-con{
