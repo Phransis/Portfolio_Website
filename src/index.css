@@ -9,15 +9,53 @@ body {
 
 
 .image{
-  height: 2em;
-  padding: 2%;
+  height: 40px;
+  padding: 10px;
+  /* margin-right: 10px; */
   
 }
 
 .headerBar{
-  
+  /* display: flex; */
 }
 
 .navbar-list{
-  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  text-transform: uppercase;
+  /* justify-content: space-between; */
+}
+
+
+nav{
+  display: flex;
+  background-color: rgb(229, 217, 234);
+}
+
+
+.intro-container{
+  text-align: center;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 0,5fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". .";
+
+}
+
+.hello{
+  font-size: .5em;
+  margin-right: 300px;
+  margin-bottom: -20px;
+}
+
+.handla{
+  font-size: 5em;
+  color: rgb(125, 126, 126);
+}
+
+.image-con{
+  width: 800px;
 }
