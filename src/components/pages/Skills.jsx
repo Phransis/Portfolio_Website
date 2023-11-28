@@ -4,6 +4,7 @@ function Skills() {
   return <div>
     
     <div className="title">Skills</div>
+    <div className="content"></div>
   </div>;
 }
 

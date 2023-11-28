@@ -4,7 +4,7 @@ function Projects() {
   return <>
     
     <div className="title">Projects</div>
-    <p>
+    <p className="content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
         doloribus earum facere architecto, sit neque enim sint nisi nemo quidem
         nam sunt eius dolorem vero animi! Praesentium beatae alias explicabo.

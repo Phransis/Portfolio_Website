@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
 body {
   margin: 0;
+  max-width: 1200px; /* responsive UI*/
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,35 +12,30 @@ body {
 .image{
   height: 40px;
   padding: 10px;
-  /* margin-right: 10px; */
   
 }
 
 .headerBar ul li{
   /* display: flex; */
   color: rgb(11, 113, 190);
-  text-align: center;
-  list-style: none;
   display: inline-block;
   margin-right: 10px;
   
 }
 
 .navbar-list{
-  list-style: none;
-  text-decoration: none;
   cursor: pointer;
-  display: flex;
   text-transform: uppercase;
-  /* justify-content: space-between; */
 }
 
 
 nav{
-  display: flex;
-  align-items: center;
   /* position: fixed; */
   background-color: rgb(229, 217, 234);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
 }
 
 nav:hover{
@@ -48,10 +44,14 @@ nav:hover{
 
 .title{
   text-align: center;
+  text-transform: uppercase;
   font-size: 6em;
-  margin-top: 1.5em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Headlines Light;
   color: rgb(105, 103, 101);
+}
+
+.title:hover{
+  color: rgb(161, 127, 255);
 }
 
 .intro-container{
@@ -67,6 +67,7 @@ nav:hover{
 
 .hello{
   font-size: 2em;
+  font-family: Headlines Light;
 
 }
 
@@ -86,7 +87,7 @@ nav:hover{
 }
 .footer{
   color: aliceblue;
-  background-color: black;
+  background-color: rgb(18, 12, 71);
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr; 
@@ -94,3 +95,10 @@ nav:hover{
   grid-template-areas: 
     ". . ."; 
 }
+
+.content{
+  padding: 45px;
+  justify-content: center;
+  color: rgb(24, 79, 126);
+}
+

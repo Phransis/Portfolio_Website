@@ -23,10 +23,7 @@ function Header() {
               <li>Contact</li>
             </a>
           </ul>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-          accusantium voluptatem iusto quod sequi pariatur, dolor, cupiditate
-          dolorem quibusdam id ab magni nostrum, vero et vitae corrupti.
-          Laudantium, quod explicabo.
+
         </nav>
       </div>
       {/* <div>Handla's Website</div> */}
