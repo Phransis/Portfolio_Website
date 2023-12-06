@@ -11,8 +11,12 @@ body {
 
 .image{
   height: 40px;
-  padding: 10px;
+  /* padding: 10px; */
   
+}
+
+.image-con{
+
 }
 
 .headerBar ul li{
@@ -35,16 +39,16 @@ nav{
   right: 0;
   left: 0;
   z-index: 1030;
-  background-color: rgb(229, 217, 234);
+  background-color: rgb(235, 231, 237);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4px 20px 4px 12px;
 }
 
-nav:hover{
+/* nav:hover{
   background-color: rgb(81, 79, 79);
-}
+} */
 
 .title{
   text-align: center;
@@ -106,3 +110,8 @@ nav:hover{
   color: rgb(24, 79, 126);
 }
 
+.skills_card{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(224, 238, 248);
+}
