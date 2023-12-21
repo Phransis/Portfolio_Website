@@ -1,9 +1,11 @@
 import React from "react";
 
 function Contact() {
-  return <div>
-   <div className="title">Contact</div> 
-   Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+  return (
+    <div>
+      <div className="title">Contact</div>
+      <p className="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
         doloribus earum facere architecto, sit neque enim sint nisi nemo quidem
         nam sunt eius dolorem vero animi! Praesentium beatae alias explicabo.
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, quis
@@ -25,15 +27,17 @@ function Contact() {
         vero excepturi, a tempora impedit! Lorem ipsum dolor sit amet
         consectetur adipisicing elit. Vel fugit vitae dolore provident eum
         voluptas id quod sequi. Quasi dolor mollitia minima nemo nulla illo!
-        Modi provident laborum iste laboriosam.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem
-        adipisci ullam tempore dolor in inventore ratione earum! Eius veniam ea
-        voluptates id doloribus debitis est aut atque delectus suscipit. Lorem,
-        ipsum dolor sit amet consectetur adipisicing elit. Ab eveniet
-        perspiciatis odit a animi architecto mollitia commodi molestias, eaque
-        quos, error quas dignissimos eligendi nostrum officia nesciunt unde
-        tenetur! Cumque.Perspiciatis
-  </div>;
+        Modi provident laborum iste laboriosam. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Esse voluptatem adipisci ullam tempore
+        dolor in inventore ratione earum! Eius veniam ea voluptates id doloribus
+        debitis est aut atque delectus suscipit. Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Ab eveniet perspiciatis odit a animi
+        architecto mollitia commodi molestias, eaque quos, error quas
+        dignissimos eligendi nostrum officia nesciunt unde tenetur!
+        Cumque.Perspiciatis
+      </p>
+    </div>
+  );
 }
 
 export default Contact;

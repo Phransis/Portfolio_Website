@@ -21,9 +21,10 @@ body {
 
 .headerBar ul li{
   /* display: flex; */
-  color: rgb(11, 113, 190);
+  color: rgb(12, 12, 12);
   display: inline-block;
   margin-right: 10px;
+  font-weight: bolder;
   
 }
 
