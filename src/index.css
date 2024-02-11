@@ -95,16 +95,11 @@ nav{
   color: rgb(105, 103, 101);
 }
 
-.handla:hover {
-  cursor: pointer;
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.handla.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 .footer{
   color: aliceblue;
   background-color: rgb(92, 89, 113);
+  width: 100%;
   display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr; 
